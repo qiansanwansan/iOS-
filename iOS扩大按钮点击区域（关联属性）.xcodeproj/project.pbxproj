@@ -14,6 +14,7 @@
 		610F5F5A22AE40D000EA0D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610F5F5822AE40D000EA0D01 /* LaunchScreen.storyboard */; };
 		610F5F5D22AE40D000EA0D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 610F5F5C22AE40D000EA0D01 /* main.m */; };
 		610F5F6522AE418400EA0D01 /* UIButton+FYLagerTouchClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 610F5F6322AE418400EA0D01 /* UIButton+FYLagerTouchClick.m */; };
+		610F5F6822AE513C00EA0D01 /* NSArray+FYSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 610F5F6722AE513C00EA0D01 /* NSArray+FYSafeArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		610F5F5C22AE40D000EA0D01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		610F5F6322AE418400EA0D01 /* UIButton+FYLagerTouchClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FYLagerTouchClick.m"; sourceTree = "<group>"; };
 		610F5F6422AE418400EA0D01 /* UIButton+FYLagerTouchClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FYLagerTouchClick.h"; sourceTree = "<group>"; };
+		610F5F6622AE513C00EA0D01 /* NSArray+FYSafeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+FYSafeArray.h"; sourceTree = "<group>"; };
+		610F5F6722AE513C00EA0D01 /* NSArray+FYSafeArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FYSafeArray.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 			children = (
 				610F5F6422AE418400EA0D01 /* UIButton+FYLagerTouchClick.h */,
 				610F5F6322AE418400EA0D01 /* UIButton+FYLagerTouchClick.m */,
+				610F5F6622AE513C00EA0D01 /* NSArray+FYSafeArray.h */,
+				610F5F6722AE513C00EA0D01 /* NSArray+FYSafeArray.m */,
 				610F5F4D22AE40CF00EA0D01 /* AppDelegate.h */,
 				610F5F4E22AE40CF00EA0D01 /* AppDelegate.m */,
 				610F5F5022AE40CF00EA0D01 /* ViewController.h */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				610F5F6822AE513C00EA0D01 /* NSArray+FYSafeArray.m in Sources */,
 				610F5F5222AE40CF00EA0D01 /* ViewController.m in Sources */,
 				610F5F5D22AE40D000EA0D01 /* main.m in Sources */,
 				610F5F4F22AE40CF00EA0D01 /* AppDelegate.m in Sources */,

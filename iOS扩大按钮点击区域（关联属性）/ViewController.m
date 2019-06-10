@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "UIButton+FYLagerTouchClick.h"
+
+#import "NSArray+FYSafeArray.h"
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UIButton *btn;
@@ -20,10 +22,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     // btn 是居中的，设置 btn 响应区域扩大至背景区域
-    CGRect frame = _btn.frame;
-    NSLog(@"%@",NSStringFromCGRect(frame));
+//    CGRect frame = _btn.frame;
+//    NSLog(@"%@",NSStringFromCGRect(frame));
 //    [_btn setFyLargeEdgeWithTop:frame.origin.y right:frame.origin.x bottom:frame.origin.y left:frame.origin.x];
     [_btn setFyLargeEdgeWithTop:10 right:186 bottom:10 left:186];
+    
+    NSArray *arr = @[@1,@2,@3];
+    NSLog(@"%@",[arr objectAtIndex:3]);
 }
 
 - (IBAction)btnClick:(UIButton *)sender {
